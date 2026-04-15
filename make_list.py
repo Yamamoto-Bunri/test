@@ -5,7 +5,7 @@ import json
 import time
 
 # --- 設定 ---
-genai.configure(api_key="あなたのGEMINI_API_KEY") # AIzaSyDsUg649lH4SZT352dfsYJFP7bDfJphIs4
+genai.configure(api_key="あなたのGEMINI_API_KEY") 
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 def get_word_info_from_ai(word, context):
